@@ -1,0 +1,127 @@
+
+.form-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    background-color: teal
+}
+
+.calculations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ind-calc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ind-calc > input{
+    width: 50px;
+    border: solid black 1px;
+    margin: 2px
+}
+
+/* .math{
+    height: 700px;
+    width: 400px;
+    background-color: rgb(43, 138, 160);
+    margin-left: 200px;
+    border: solid black;    
+} */
+/* .add > h1{
+    text-align: center; */
+/* } */
+/* .addcenter{
+    margin-left: 86px; 
+} */
+/* #add1{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: solid black 1px; 
+    font-size: 25px;
+    text-align: center;
+} */
+/* #add2{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+} */
+/* .subtract> h1{
+    text-align: center;
+    margin-left: px;
+} */
+/* .subcenter{
+    margin-left: 86px;
+} */
+/* #sub1{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+} */
+/* #sub2{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+} */
+/* .multiply > h1{
+    text-align: center;
+    margin-left: px;
+} */
+/* .multcenter{
+    margin-left: 86px;
+} */
+
+/* #mult1{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+} */
+/* #mult2{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+} */
+button{
+    border: solid black 1px;
+    height: 20px;
+}
+.result{
+    /* height: 16px;
+    width:  60px; */
+    /* background-color: white; */
+    /* border: solid black 1px; */
+    font-size: 20px;
+    text-align: center;
+}

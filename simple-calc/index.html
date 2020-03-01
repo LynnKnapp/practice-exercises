@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel ="stylesheet" href ="styles.css">
+        <title>Simple Calculator</title>
+    </head>
+    <body>
+        <div class="form-cont">
+        <form id='math' class='math'>
+            <h2 class='title'>Calculator</h2>
+            <div class = "calculations"> 
+                <h3>Add 2 Numbers</h3> 
+                <div class = "ind-calc" >
+                    <input type ="number"  id = 'add1' name = "num1">
+                    <input type ="number"  id = 'add2' name = "num2">
+                </div>
+                <div class='btn'>
+                    <button>calculate</button>
+                </div>
+                <h2 id = 'addResult'class ="result"></h2>
+        
+            </div>
+            <div  class ="calculations">
+                <h3>Subtract 2 Numbers</h3>
+                <div class ="ind-calc">
+                    <input type ="number" id = 'sub1' name="num1">
+                    <input type ="number" id = 'sub2' name="num2">
+                </div>    
+                <div class='btn'>
+                    <button>calculate</button>
+                </div>
+                    <h2 id = 'subResult' class="result"></h2>
+            </div>
+            <div class ="calculations">
+                    <h3>Multiply 2 Numbers</h3>
+                    <div class ="ind-calc">
+                        <input type ="number"  id = 'mult1'name ="num1">
+                        <input type ="number"  id = 'mult2'name ="num2">
+                    </div>    
+                    <div class='btn'>
+                        <button>calculate</button>
+                    </div>
+                    <h2 id = 'multResult'class ="result"></h2 id>
+            </div>
+        </form>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
+        
