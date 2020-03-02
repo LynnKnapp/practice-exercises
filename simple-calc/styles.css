@@ -9,7 +9,8 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    width: 30vw;
+    margin-top: 20px;
     background-color: teal
 }
 
