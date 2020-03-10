@@ -61,16 +61,32 @@
 // }
 // console.log(skipTooMuchSugarDrinks(drinksArr))
 
-function getCase(str) {
-      str.map(word =>{
-                 if(word === word.toLowerCase() && word === word.toUpperCase()){
-                     return 'mixed'
-             }else if(word === word.toLowerCase()){
-                 return 'lower'
-             }else if(word === word.toUpperCase()){
-                 return 'upper'
-             }
+// function getCase(str) {
+//       str.map(word =>{
+//                  if(word === word.toLowerCase() && word === word.toUpperCase()){
+//                      return 'mixed'
+//              }else if(word === word.toLowerCase()){
+//                  return 'lower'
+//              }else if(word === word.toUpperCase()){
+//                  return 'upper'
+//              }
           
-     })
-}
-console.log(getCase('whochi mama'))
+//      })
+// }
+// console.log(getCase('whochi mama'))
+
+//Create a function that takes a string and returns a string with spaces in between all of the characters.
+
+// function spaceMeOut(str) {
+	
+//     return	   str.split('').join(" ")
+                
+//     }
+//Create a function that flips M's to W's (all uppercase).
+// function wumbo(words) {
+// 	return  words.toUpperCase().replace(/M/g, "W")
+	  
+      
+
+// }
+// console.log(wumbo('mamma hoochi mama'))
